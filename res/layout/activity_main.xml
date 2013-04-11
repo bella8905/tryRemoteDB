@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ListView_allProducts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_loadProducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Load Products"
+            android:text="Load Products" />
+
+        <Button
+            android:id="@+id/btn_uploadProducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="uploadProducts"
+            android:text="Upload Products" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp" >
+    </ListView>
+
+</LinearLayout>
