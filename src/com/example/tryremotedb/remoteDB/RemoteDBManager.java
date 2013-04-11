@@ -1,4 +1,4 @@
-package com.example.tryremotedb;
+package com.example.tryremotedb.remoteDB;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,6 +8,9 @@ import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import com.example.tryremotedb.MainActivity;
+
 
 import android.content.Context;
 import android.os.AsyncTask;

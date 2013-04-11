@@ -1,4 +1,4 @@
-package com.example.tryremotedb;
+package com.example.tryremotedb.remoteDB;
 
 import java.io.BufferedReader;
 import java.io.IOException;
